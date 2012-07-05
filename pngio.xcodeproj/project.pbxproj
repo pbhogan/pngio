@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E1DD7714C656ED001B227D /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD5E14C656ED001B227D /* png.c */; };
+		17E1DD7814C656ED001B227D /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6214C656ED001B227D /* pngerror.c */; };
+		17E1DD7914C656ED001B227D /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6314C656ED001B227D /* pngget.c */; };
+		17E1DD7A14C656ED001B227D /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6614C656ED001B227D /* pngmem.c */; };
+		17E1DD7B14C656ED001B227D /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6714C656ED001B227D /* pngpread.c */; };
+		17E1DD7C14C656ED001B227D /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6914C656ED001B227D /* pngread.c */; };
+		17E1DD7D14C656ED001B227D /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6A14C656ED001B227D /* pngrio.c */; };
+		17E1DD7E14C656ED001B227D /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6B14C656ED001B227D /* pngrtran.c */; };
+		17E1DD7F14C656ED001B227D /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6C14C656ED001B227D /* pngrutil.c */; };
+		17E1DD8014C656ED001B227D /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6D14C656ED001B227D /* pngset.c */; };
+		17E1DD8114C656ED001B227D /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD6F14C656ED001B227D /* pngtrans.c */; };
+		17E1DD8214C656ED001B227D /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7014C656ED001B227D /* pngwio.c */; };
+		17E1DD8314C656ED001B227D /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7114C656ED001B227D /* pngwrite.c */; };
+		17E1DD8414C656ED001B227D /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7214C656ED001B227D /* pngwtran.c */; };
+		17E1DD8514C656ED001B227D /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7314C656ED001B227D /* pngwutil.c */; };
+		17E1DD8614C656ED001B227D /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7414C656ED001B227D /* test.cpp */; };
+		17E1DD8714C656ED001B227D /* pngio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17E1DD7514C656ED001B227D /* pngio.cpp */; };
+		17E1DD8914C656F7001B227D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E1DD8814C656F7001B227D /* libz.1.2.5.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17E1DD4D14C656D2001B227D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17E1DD4F14C656D2001B227D /* pngio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pngio; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E1DD5E14C656ED001B227D /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = png.c; sourceTree = "<group>"; };
+		17E1DD5F14C656ED001B227D /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		17E1DD6014C656ED001B227D /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		17E1DD6114C656ED001B227D /* pngdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngdebug.h; sourceTree = "<group>"; };
+		17E1DD6214C656ED001B227D /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngerror.c; sourceTree = "<group>"; };
+		17E1DD6314C656ED001B227D /* pngget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngget.c; sourceTree = "<group>"; };
+		17E1DD6414C656ED001B227D /* pnginfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnginfo.h; sourceTree = "<group>"; };
+		17E1DD6514C656ED001B227D /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		17E1DD6614C656ED001B227D /* pngmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngmem.c; sourceTree = "<group>"; };
+		17E1DD6714C656ED001B227D /* pngpread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngpread.c; sourceTree = "<group>"; };
+		17E1DD6814C656ED001B227D /* pngpriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngpriv.h; sourceTree = "<group>"; };
+		17E1DD6914C656ED001B227D /* pngread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngread.c; sourceTree = "<group>"; };
+		17E1DD6A14C656ED001B227D /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrio.c; sourceTree = "<group>"; };
+		17E1DD6B14C656ED001B227D /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrtran.c; sourceTree = "<group>"; };
+		17E1DD6C14C656ED001B227D /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngrutil.c; sourceTree = "<group>"; };
+		17E1DD6D14C656ED001B227D /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngset.c; sourceTree = "<group>"; };
+		17E1DD6E14C656ED001B227D /* pngstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngstruct.h; sourceTree = "<group>"; };
+		17E1DD6F14C656ED001B227D /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngtrans.c; sourceTree = "<group>"; };
+		17E1DD7014C656ED001B227D /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwio.c; sourceTree = "<group>"; };
+		17E1DD7114C656ED001B227D /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwrite.c; sourceTree = "<group>"; };
+		17E1DD7214C656ED001B227D /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwtran.c; sourceTree = "<group>"; };
+		17E1DD7314C656ED001B227D /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pngwutil.c; sourceTree = "<group>"; };
+		17E1DD7414C656ED001B227D /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		17E1DD7514C656ED001B227D /* pngio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pngio.cpp; sourceTree = "<group>"; };
+		17E1DD7614C656ED001B227D /* pngio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngio.h; sourceTree = "<group>"; };
+		17E1DD8814C656F7001B227D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E1DD4C14C656D2001B227D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E1DD8914C656F7001B227D /* libz.1.2.5.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E1DD4414C656D2001B227D = {
+			isa = PBXGroup;
+			children = (
+				17E1DD5C14C656ED001B227D /* Source */,
+				17E1DD8A14C65703001B227D /* Dependencies */,
+				17E1DD5014C656D2001B227D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E1DD5014C656D2001B227D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E1DD4F14C656D2001B227D /* pngio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E1DD5C14C656ED001B227D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				17E1DD5D14C656ED001B227D /* libpng */,
+				17E1DD7414C656ED001B227D /* test.cpp */,
+				17E1DD7514C656ED001B227D /* pngio.cpp */,
+				17E1DD7614C656ED001B227D /* pngio.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		17E1DD5D14C656ED001B227D /* libpng */ = {
+			isa = PBXGroup;
+			children = (
+				17E1DD5E14C656ED001B227D /* png.c */,
+				17E1DD5F14C656ED001B227D /* png.h */,
+				17E1DD6014C656ED001B227D /* pngconf.h */,
+				17E1DD6114C656ED001B227D /* pngdebug.h */,
+				17E1DD6214C656ED001B227D /* pngerror.c */,
+				17E1DD6314C656ED001B227D /* pngget.c */,
+				17E1DD6414C656ED001B227D /* pnginfo.h */,
+				17E1DD6514C656ED001B227D /* pnglibconf.h */,
+				17E1DD6614C656ED001B227D /* pngmem.c */,
+				17E1DD6714C656ED001B227D /* pngpread.c */,
+				17E1DD6814C656ED001B227D /* pngpriv.h */,
+				17E1DD6914C656ED001B227D /* pngread.c */,
+				17E1DD6A14C656ED001B227D /* pngrio.c */,
+				17E1DD6B14C656ED001B227D /* pngrtran.c */,
+				17E1DD6C14C656ED001B227D /* pngrutil.c */,
+				17E1DD6D14C656ED001B227D /* pngset.c */,
+				17E1DD6E14C656ED001B227D /* pngstruct.h */,
+				17E1DD6F14C656ED001B227D /* pngtrans.c */,
+				17E1DD7014C656ED001B227D /* pngwio.c */,
+				17E1DD7114C656ED001B227D /* pngwrite.c */,
+				17E1DD7214C656ED001B227D /* pngwtran.c */,
+				17E1DD7314C656ED001B227D /* pngwutil.c */,
+			);
+			path = libpng;
+			sourceTree = "<group>";
+		};
+		17E1DD8A14C65703001B227D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				17E1DD8814C656F7001B227D /* libz.1.2.5.dylib */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E1DD4E14C656D2001B227D /* pngio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E1DD5914C656D2001B227D /* Build configuration list for PBXNativeTarget "pngio" */;
+			buildPhases = (
+				17E1DD4B14C656D2001B227D /* Sources */,
+				17E1DD4C14C656D2001B227D /* Frameworks */,
+				17E1DD4D14C656D2001B227D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pngio;
+			productName = pngio;
+			productReference = 17E1DD4F14C656D2001B227D /* pngio */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E1DD4614C656D2001B227D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Gallant Games";
+			};
+			buildConfigurationList = 17E1DD4914C656D2001B227D /* Build configuration list for PBXProject "pngio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17E1DD4414C656D2001B227D;
+			productRefGroup = 17E1DD5014C656D2001B227D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E1DD4E14C656D2001B227D /* pngio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E1DD4B14C656D2001B227D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E1DD7714C656ED001B227D /* png.c in Sources */,
+				17E1DD7814C656ED001B227D /* pngerror.c in Sources */,
+				17E1DD7914C656ED001B227D /* pngget.c in Sources */,
+				17E1DD7A14C656ED001B227D /* pngmem.c in Sources */,
+				17E1DD7B14C656ED001B227D /* pngpread.c in Sources */,
+				17E1DD7C14C656ED001B227D /* pngread.c in Sources */,
+				17E1DD7D14C656ED001B227D /* pngrio.c in Sources */,
+				17E1DD7E14C656ED001B227D /* pngrtran.c in Sources */,
+				17E1DD7F14C656ED001B227D /* pngrutil.c in Sources */,
+				17E1DD8014C656ED001B227D /* pngset.c in Sources */,
+				17E1DD8114C656ED001B227D /* pngtrans.c in Sources */,
+				17E1DD8214C656ED001B227D /* pngwio.c in Sources */,
+				17E1DD8314C656ED001B227D /* pngwrite.c in Sources */,
+				17E1DD8414C656ED001B227D /* pngwtran.c in Sources */,
+				17E1DD8514C656ED001B227D /* pngwutil.c in Sources */,
+				17E1DD8614C656ED001B227D /* test.cpp in Sources */,
+				17E1DD8714C656ED001B227D /* pngio.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17E1DD5714C656D2001B227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17E1DD5814C656D2001B227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17E1DD5A14C656D2001B227D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17E1DD5B14C656D2001B227D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E1DD4914C656D2001B227D /* Build configuration list for PBXProject "pngio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E1DD5714C656D2001B227D /* Debug */,
+				17E1DD5814C656D2001B227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E1DD5914C656D2001B227D /* Build configuration list for PBXNativeTarget "pngio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E1DD5A14C656D2001B227D /* Debug */,
+				17E1DD5B14C656D2001B227D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E1DD4614C656D2001B227D /* Project object */;
+}
