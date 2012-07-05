@@ -1,10 +1,11 @@
 ## Information
 
-pngio is a A small, lightweight PNG library in C.
+pngio is a small, lightweight PNG library in C.
 
 * It loads and saves your 32 bit images.
 * It handles Apple's weird PNG format (load and save).
 * It includes a small C++ wrapper that supports std::stream
+* It is memory efficient.
 
 ## How To
 
